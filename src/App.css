@@ -1,0 +1,84 @@
+
+h2 {
+  text-align: center;
+  color: #0caa11;
+}
+
+div {
+  max-width: 400px;
+  margin: 5px auto;
+  background-color: #141414;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 2px 5px rgba(146, 143, 143, 0.909);
+}
+
+input[type='text'] {
+  width: calc(100% - 60px);
+  padding: 8px;
+  font-size: larger;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  padding: 8px 16px;
+  border: none;
+  background-color: #4caf50;
+  color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+input[type='range'] {
+  width: 80%;
+  margin-bottom: 10px;
+  color: green;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input[type='checkbox'] {
+  margin-right: 5px;
+}
+
+input[type='checkbox']:hover {
+  cursor: pointer;
+}
+
+/* Animation for checkboxes */
+input[type='checkbox'] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  width: 16px;
+  height: 16px;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  display: inline-block;
+  position: relative;
+  transition: background-color 0.3s ease;
+}
+
+input[type='checkbox']:checked {
+  background-color: #36c03b;
+}
+
+
+
+input[type='checkbox']:focus {
+  outline: none;
+}
+
+input[type='checkbox']:hover {
+  background-color: #e0e0e0;
+}
